@@ -3,9 +3,17 @@
 // in the html.
 $(document).ready(function() {
 
+  //This displays the current date. //
+  var currentDate = new Date(); //This variable sets currentDate to equal a new date which defaults to the current date. //
+  var dateString = currentDate.toDateString();//This creates a variable dateString which strings new Date stored in currentDate. //
+  $('#currentDay').text(dateString); //This bit attaches it to the class that needs to be referenced. //
+  console.log(dateString); //This displays the new dateString. //
   
 
+
 $(function () {
+  onclick
+
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
   // local storage. HINT: What does `this` reference in the click listener

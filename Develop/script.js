@@ -21,7 +21,7 @@ $(document).ready(function() {
     $(childEl).text(text)
 
 
-    // currentHour = dayjs().hour()
+    currentHour = dayjs().hour()
     // currentHour = 14 //I can use this line for testing but make sure to comment out when not used for testing. //
     console.log(currentHour, divHour)
     //How does the code below work?//
